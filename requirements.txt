@@ -1,0 +1,4 @@
+# requirements.txt
+# LLM-related packages if you want to extend
+langchain
+openai
