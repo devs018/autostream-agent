@@ -1,0 +1,13 @@
+def detect_intent(user_input: str):
+    text = user_input.lower()
+
+    if any(word in text for word in ["hi", "hello", "hey"]):
+        return "greeting"
+
+    if any(word in text for word in ["price", "pricing", "cost", "plan"]):
+        return "pricing"
+
+    if any(word in text for word in ["sign up", "try", "buy", "subscribe", "want to"]):
+        return "high_intent"
+
+    return "general"
