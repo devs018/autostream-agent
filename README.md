@@ -15,3 +15,5 @@ This separation of concerns improves clarity, scalability, and real-world deploy
 
 ## WhatsApp Integration (Concept)
 The agent can be integrated with WhatsApp using webhooks via the WhatsApp Business API. Incoming user messages would be forwarded to the agent’s response function, and generated replies would be sent back through the WhatsApp API. The same intent detection, RAG retrieval, and tool execution logic would remain unchanged.
+## Demo video
+https://youtu.be/eFwxLNQ6LI8
